@@ -2,6 +2,13 @@
 
 A Rust-based terminal UI (TUI) tool for viewing and analyzing Claude Code transcript JSONL files using [ratatui](https://github.com/ratatui-org/ratatui).
 
+# UNDER CONSTRUCTION
+
+# UNDER CONSTRUCTION
+
+# UNDER CONSTRUCTION
+
+
 ## Features
 
 - **Parse Claude Code JSONL transcripts**: Comprehensive support for all Claude Code transcript entry types
