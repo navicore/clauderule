@@ -1,0 +1,38 @@
+[package]
+name = "claude-log-viewer"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A Rust TUI tool for viewing Claude Code transcript JSONL files"
+license = "MIT"
+repository = "https://github.com/yourusername/claude-log-viewer"
+
+[[bin]]
+name = "claude-log-viewer"
+path = "src/main.rs"
+
+[lib]
+name = "claude_log_viewer"
+path = "src/lib.rs"
+
+[dependencies]
+# UI Framework
+ratatui = "0.29"
+crossterm = "0.28"
+
+# JSON parsing with strong typing
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Date/time handling
+chrono = { version = "0.4", features = ["serde"] }
+
+# Error handling
+anyhow = "1.0"
+thiserror = "2.0"
+
+# System directories
+dirs = "5.0"
+
+# Regex support
+regex = "1.10"
