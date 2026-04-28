@@ -1,3 +1,8 @@
+<!-- ghmig:moved -->
+> **This repository has moved to [https://git.navicore.tech/navicore/clauderule](https://git.navicore.tech/navicore/clauderule).**
+>
+> The GitHub copy is archived and no longer maintained.
+
 # Claude Log Viewer
 
 A Rust-based terminal UI (TUI) tool for viewing and analyzing Claude Code transcript JSONL files using [ratatui](https://github.com/ratatui-org/ratatui).
